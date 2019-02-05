@@ -3,5 +3,5 @@
   hosts: all
   tasks:
     - name: show interface
-        cli_command:
+      cli_command:
           command: ifconfig
