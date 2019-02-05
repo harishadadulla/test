@@ -2,6 +2,6 @@
 - name: cli-module test
   hosts: all
   tasks:
-- name: show interface
-  cli_command:
-    command: ifconfig
+    - name: show interface
+        cli_command:
+          command: ifconfig
